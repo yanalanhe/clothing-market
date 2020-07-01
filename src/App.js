@@ -1,12 +1,12 @@
 import React from 'react';
+import { HomePage } from './pages/homepage/homepage.component';
+import { Router } from 'react-router-dom'
 import './App.css';
-import './homepage.component'
-import { HomePage } from './homepage.component';
 
 function App() {
   return (
     <div>
-      <HomePage></HomePage>
+      <HomePage />
     </div>
   );
 }
